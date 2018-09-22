@@ -10,13 +10,14 @@
 下面的这部分文章基本都是Jegou这个人的，算是图像检索领域的一个大佬，他的主页在这里：[Jegou][3].
 * Jegou H, Douze M, Schmid C. Product quantization for nearest neighbor search[J]. 2011. [link][4].
 * Jegou H, Perronnin F, Douze M, et al. Aggregating local image descriptors into compact codes[J]. 2012. [link][6].
-* Tolias G, Avrithis Y, Jegou H, et al. To Aggregate or Not to aggregate: Selective Match Kernels for Image Search[C]. 2013. [link][7]
-* ***Jegou H, Zisserman A. Triangulation embedding and democratic aggregation for image search[C]. 2014.*** [link][8]
-* Murray N, Jégou H, Perronnin F, et al. Interferences in match kernels[J]. 2016. [link][9]
-* 这篇文章主要可以了解下Burstiness现象：Jegou H, Douze M, Schmid C, et al. On the burstiness of visual elements[C]. 2009. [link][10]
+* Tolias G, Avrithis Y, Jegou H, et al. To Aggregate or Not to aggregate: Selective Match Kernels for Image Search[C]. 2013. [link][7].
+* ***Jegou H, Zisserman A. Triangulation embedding and democratic aggregation for image search[C]. 2014.*** [link][8].
+* Murray N, Jégou H, Perronnin F, et al. Interferences in match kernels[J]. 2016. [link][9].
+* 这篇文章主要可以了解下Burstiness现象：Jegou H, Douze M, Schmid C, et al. On the burstiness of visual elements[C]. 2009. [link][10].
 ***
 ## 使用CNN模型的
-
+关于CNN(Convolutional Neural Networks,卷积神经网络)，我自己其实了解的不是很多，目前只是会使用一些模型，也处在学习阶段。建议大家自行寻找一些资料阅读了解。（这里推荐一个 [Convolutional Neural Networks for Visual Recognition][12].）
+* 好像是第一篇用CNN做图像检索的：Babenko A, Slesarev A, Chigorin A, et al. Neural Codes for Image Retrieval[C]. 2014.[link][11].
 
 
 [1]: https://www.cs.ubc.ca/~lowe/papers/iccv99.pdf "SIFT"
@@ -29,3 +30,5 @@
 [8]: https://hal.inria.fr/file/index/docid/978462/filename/cvpr2014_democratic_appendices.pdf "TEMB"
 [9]: https://arxiv.org/pdf/1611.08194.pdf "Inferences"
 [10]: http://lear.inrialpes.fr/pubs/2009/JDS09a/jegou_burstiness.pdf "Burstiness"
+[11]: http://vigir.missouri.edu/~gdesouza/Research/Conference_CDs/ECCV_2014/papers/8689/86890584.pdf "Neural Codes"
+[12]: http://vision.stanford.edu/teaching/cs231n/index.html "Stanford CNN"
