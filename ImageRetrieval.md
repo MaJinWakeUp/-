@@ -2,7 +2,7 @@
 如果链接无法使用请善用搜索引擎，或者找我要pdf；如果链接错误请及时与我联系。  
 这里面一些我觉得比较重要的文章会加粗处理。
 ## 建立在SIFT特征基础上的
-之前的图像检索提取的特征基本都是SIFT特征，现在CNN模型的发展已经基本取代了SIFT特征了。所以这部分可以只作了解，不过**其中很多思想和方法现在仍然有用**。
+之前的图像检索使用的特征基本都是SIFT特征，现在CNN模型的发展已经基本取代了SIFT特征了。所以这部分可以只作了解，不过**其中很多思想和方法现在仍然有用**。
 * 关于SIFT特征：Lowe D G. Object recognition from local scale-invariant features[C]. 1999. [link][1].
 * 老师给我看的第一篇文章，里面的BOW、tf-idf、inverted files都挺有用的：***Sivic, Zisserman. Video Google: a text retrieval approach to object matching in videos[C]. 2003.*** [link][2].
 * Arandjelovic R, Zisserman A. Three things everyone should know to improve object retrieval[C]. 2012. [link][5].
@@ -17,7 +17,7 @@
 ***
 ## 使用CNN模型的
 关于CNN(Convolutional Neural Networks,卷积神经网络)，我自己其实了解的不是很多，目前只是会使用一些模型，也处在学习阶段。建议大家自行寻找一些资料阅读了解。（这里推荐一个 [Convolutional Neural Networks for Visual Recognition][12].）
-* 好像是第一篇用CNN做图像检索的：Babenko A, Slesarev A, Chigorin A, et al. Neural Codes for Image Retrieval[C]. 2014.[link][11].
+* 好像是第一篇用CNN做图像检索的：Babenko A, Slesarev A, Chigorin A, et al. Neural Codes for Image Retrieval[C]. 2014. [link][11].
 
 
 [1]: https://www.cs.ubc.ca/~lowe/papers/iccv99.pdf "SIFT"
