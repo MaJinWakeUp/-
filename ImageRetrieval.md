@@ -18,6 +18,11 @@
 ## 使用CNN模型的
 关于CNN(Convolutional Neural Networks,卷积神经网络)，我自己其实了解的不是很多，目前只是会使用一些模型，也处在学习阶段。建议大家自行寻找一些资料阅读了解。（这里推荐一个 [Convolutional Neural Networks for Visual Recognition][12].）
 * 好像是第一篇用CNN做图像检索的：Babenko A, Slesarev A, Chigorin A, et al. Neural Codes for Image Retrieval[C]. 2014. [link][11].
+* Karamti H, Tmar M, Gargouri F, et al. Content-based image retrieval system using neural network[C]. 2014. [link][13].
+
+下面这些应该都是对CNN的卷积层特征做处理，是目前比较主流的一些方法：  
+* Babenko A, Lempitsky V S. Aggregating Deep Convolutional Features for Image Retrieval.[J]. 2015. [link][14].
+
 
 
 [1]: https://www.cs.ubc.ca/~lowe/papers/iccv99.pdf "SIFT"
@@ -32,3 +37,5 @@
 [10]: http://lear.inrialpes.fr/pubs/2009/JDS09a/jegou_burstiness.pdf "Burstiness"
 [11]: http://vigir.missouri.edu/~gdesouza/Research/Conference_CDs/ECCV_2014/papers/8689/86890584.pdf "Neural Codes"
 [12]: http://vision.stanford.edu/teaching/cs231n/index.html "Stanford CNN"
+[13]: https://ieeexplore.ieee.org/document/7073271/ "CBIR system"
+[14]: https://arxiv.org/pdf/1510.07493v1.pdf "SPoC"
