@@ -20,10 +20,11 @@
 * 好像是第一篇用CNN做图像检索的：Babenko A, Slesarev A, Chigorin A, et al. Neural Codes for Image Retrieval[C]. 2014. [link][11].
 * Karamti H, Tmar M, Gargouri F, et al. Content-based image retrieval system using neural network[C]. 2014. [link][13].
 
-下面这些应该都是对CNN的卷积层特征做处理，是目前比较主流的一些方法：  
+下面这些应该都是对CNN的卷积层特征做处理，是目前比较主流的一些方法或者是一些作为baseline的方法：  
 * Babenko A, Lempitsky V S. Aggregating Deep Convolutional Features for Image Retrieval.[J]. 2015. [link][14].
-
-
+* Kalantidis Y, Mellina C, Osindero S, et al. ***Cross-Dimensional Weighting for Aggregated Deep Convolutional Features[J].*** 2016. [link][15].
+* Hoang T, Do T, Tan D L, et al. ***Selective Deep Convolutional Features for Image Retrieval[J].*** 2017. [link][16].
+* Tolias G, Sicre R, Jegou H, et al. ***Particular object retrieval with integral max-pooling of CNN activations[J].*** 2016. [link][17].
 
 [1]: https://www.cs.ubc.ca/~lowe/papers/iccv99.pdf "SIFT"
 [2]: https://courses.cs.washington.edu/courses/cse576/06sp/papers/sivic.pdf "Video Google"
@@ -39,3 +40,6 @@
 [12]: http://vision.stanford.edu/teaching/cs231n/index.html "Stanford CNN"
 [13]: https://ieeexplore.ieee.org/document/7073271/ "CBIR system"
 [14]: https://arxiv.org/pdf/1510.07493v1.pdf "SPoC"
+[15]: https://arxiv.org/pdf/1512.04065.pdf "CRoW"
+[16]: https://arxiv.org/pdf/1707.00809.pdf "Mask"
+[17]: https://arxiv.org/pdf/1511.05879.pdf "RMAC"
