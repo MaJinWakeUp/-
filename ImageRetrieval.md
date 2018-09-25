@@ -12,19 +12,26 @@
 * Jegou H, Perronnin F, Douze M, et al. Aggregating local image descriptors into compact codes[J]. 2012. [link][6].
 * Tolias G, Avrithis Y, Jegou H, et al. To Aggregate or Not to aggregate: Selective Match Kernels for Image Search[C]. 2013. [link][7].
 * ***Jegou H, Zisserman A. Triangulation embedding and democratic aggregation for image search[C]. 2014.*** [link][8].
+* Tolias G, Avrithis Y S, Jegou H, et al. Image Search with Selective Match Kernels: Aggregation Across Single and Multiple Images[J]. 2016. [link][18].
 * Murray N, Jégou H, Perronnin F, et al. Interferences in match kernels[J]. 2016. [link][9].
 * 这篇文章主要可以了解下Burstiness现象：Jegou H, Douze M, Schmid C, et al. On the burstiness of visual elements[C]. 2009. [link][10].
 ***
 ## 使用CNN模型的
 关于CNN(Convolutional Neural Networks,卷积神经网络)，我自己其实了解的不是很多，目前只是会使用一些模型，也处在学习阶段。建议大家自行寻找一些资料阅读了解。（这里推荐一个 [Convolutional Neural Networks for Visual Recognition][12].）
+### 早期方法(全连接层特征)
 * 好像是第一篇用CNN做图像检索的：Babenko A, Slesarev A, Chigorin A, et al. Neural Codes for Image Retrieval[C]. 2014. [link][11].
 * Karamti H, Tmar M, Gargouri F, et al. Content-based image retrieval system using neural network[C]. 2014. [link][13].
-
+### 主流方法(卷积层特征)
 下面这些应该都是对CNN的卷积层特征做处理，是目前比较主流的一些方法或者是一些作为baseline的方法：  
 * Babenko A, Lempitsky V S. Aggregating Deep Convolutional Features for Image Retrieval.[J]. 2015. [link][14].
 * Kalantidis Y, Mellina C, Osindero S, et al. ***Cross-Dimensional Weighting for Aggregated Deep Convolutional Features[J].*** 2016. [link][15].
 * Hoang T, Do T, Tan D L, et al. ***Selective Deep Convolutional Features for Image Retrieval[J].*** 2017. [link][16].
 * Tolias G, Sicre R, Jegou H, et al. ***Particular object retrieval with integral max-pooling of CNN activations[J].*** 2016. [link][17].
+### 最新的CBIR方法(检索效果已经非常高了)
+* Gordo A, Almazan J, Revaud J, et al. End-to-End Learning of Deep Visual Representations for Image Retrieval[J]. 2017. [link][19].
+* Iscen A, Tolias G, Avrithis Y S, et al. Efficient Diffusion on Region Manifolds: Recovering Small Objects with Compact CNN Representations[J]. 2017. [link][20].
+* Iscen A, Avrithis Y S, Tolias G, et al. Fast Spectral Ranking for Similarity Search[J]. 2018. [link][21].
+
 
 [1]: https://www.cs.ubc.ca/~lowe/papers/iccv99.pdf "SIFT"
 [2]: https://courses.cs.washington.edu/courses/cse576/06sp/papers/sivic.pdf "Video Google"
@@ -43,3 +50,8 @@
 [15]: https://arxiv.org/pdf/1512.04065.pdf "CRoW"
 [16]: https://arxiv.org/pdf/1707.00809.pdf "Mask"
 [17]: https://arxiv.org/pdf/1511.05879.pdf "RMAC"
+[18]: https://link.springer.com/content/pdf/10.1007%2Fs11263-015-0810-4.pdf "ASMK"
+[19]: https://arxiv.org/pdf/1610.07940.pdf "end-to-end"
+[20]: https://arxiv.org/pdf/1611.05113.pdf "Diffusion"
+[21]: https://arxiv.org/pdf/1703.06935.pdf "Spectral"
+ 
