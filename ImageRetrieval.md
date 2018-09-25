@@ -31,7 +31,10 @@
 * Gordo A, Almazan J, Revaud J, et al. End-to-End Learning of Deep Visual Representations for Image Retrieval[J]. 2017. [link][19].
 * Iscen A, Tolias G, Avrithis Y S, et al. Efficient Diffusion on Region Manifolds: Recovering Small Objects with Compact CNN Representations[J]. 2017. [link][20].
 * Iscen A, Avrithis Y S, Tolias G, et al. Fast Spectral Ranking for Similarity Search[J]. 2018. [link][21].
-
+### Beyond CBIR
+以下这些文章也属于图像检索，但是可能不再局限于CBIR。
+* Mai L, Jin H, Lin Z L, et al. Spatial-Semantic Image Search by Visual Feature Synthesis[C]. 2017. [link][22].
+* Gordo A, Larlus D. Beyond Instance-Level Image Retrieval: Leveraging Captions to Learn a Global Visual Representation for Semantic Retrieval[C]. 2017. [link][23].
 
 [1]: https://www.cs.ubc.ca/~lowe/papers/iccv99.pdf "SIFT"
 [2]: https://courses.cs.washington.edu/courses/cse576/06sp/papers/sivic.pdf "Video Google"
@@ -54,4 +57,5 @@
 [19]: https://arxiv.org/pdf/1610.07940.pdf "end-to-end"
 [20]: https://arxiv.org/pdf/1611.05113.pdf "Diffusion"
 [21]: https://arxiv.org/pdf/1703.06935.pdf "Spectral"
- 
+[22]: http://openaccess.thecvf.com/content_cvpr_2017/papers/Mai_Spatial-Semantic_Image_Search_CVPR_2017_paper.pdf "Spa-Sem"
+[23]: http://openaccess.thecvf.com/content_cvpr_2017/papers/Gordo_Beyond_Instance-Level_Image_CVPR_2017_paper.pdf "Beyond Instance"
