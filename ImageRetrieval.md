@@ -35,6 +35,13 @@
 以下这些文章也属于图像检索，但是可能不再局限于CBIR。
 * Mai L, Jin H, Lin Z L, et al. Spatial-Semantic Image Search by Visual Feature Synthesis[C]. 2017. [link][22].
 * Gordo A, Larlus D. Beyond Instance-Level Image Retrieval: Leveraging Captions to Learn a Global Visual Representation for Semantic Retrieval[C]. 2017. [link][23].
+***
+## 相关资料
+以下文章并不是直接解决图像检索问题，但是也可以看一看作为参考。图像处理的很多方法本质是相同或相通的。
+* Zhang L, Yang C, Lu H, et al. Ranking Saliency[J]. 2017. [link][24].
+* Kim H J, Dunn E, Frahm J M, et al. Learned Contextual Feature Reweighting for Image Geo-Localization[C]. 2017.[link][25].
+* Simeoni O, Iscen A, Tolias G, et al. Unsupervised Object Discovery for Instance Recognition[J]. 2018. [link][26].
+* Hong S, Yang D, Choi J, et al. Inferring Semantic Layout for Hierarchical Text-to-Image Synthesis[J]. 2018. [link][27].
 
 [1]: https://www.cs.ubc.ca/~lowe/papers/iccv99.pdf "SIFT"
 [2]: https://courses.cs.washington.edu/courses/cse576/06sp/papers/sivic.pdf "Video Google"
@@ -59,3 +66,7 @@
 [21]: https://arxiv.org/pdf/1703.06935.pdf "Spectral"
 [22]: http://openaccess.thecvf.com/content_cvpr_2017/papers/Mai_Spatial-Semantic_Image_Search_CVPR_2017_paper.pdf "Spa-Sem"
 [23]: http://openaccess.thecvf.com/content_cvpr_2017/papers/Gordo_Beyond_Instance-Level_Image_CVPR_2017_paper.pdf "Beyond Instance"
+[24]: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7567535 "Saliency"
+[25]: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8099829 "Geo-Localization"
+[26]: https://arxiv.org/pdf/1709.04725.pdf "Instance Recognition"
+[27]: https://arxiv.org/pdf/1801.05091.pdf "Text-to-Image"
