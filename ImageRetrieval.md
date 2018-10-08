@@ -1,7 +1,7 @@
 # 关于图像检索的资料整理
 如果链接无法使用请善用搜索引擎，或者找我要pdf；如果链接错误请及时与我联系。  
 这里面一些我觉得比较重要的文章会加粗处理。
-## 建立在SIFT特征基础上的
+## 1. 建立在SIFT特征基础上的
 之前的图像检索使用的特征基本都是SIFT特征，现在CNN模型的发展已经基本取代了SIFT特征了。所以这部分可以只作了解，不过**其中很多思想和方法现在仍然有用**。
 * 关于SIFT特征：Lowe D G. Object recognition from local scale-invariant features[C]. 1999. [link][1].
 * 老师给我看的第一篇文章，里面的BOW、tf-idf、inverted files都挺有用的：***Sivic, Zisserman. Video Google: a text retrieval approach to object matching in videos[C]. 2003.*** [link][2].
@@ -16,7 +16,7 @@
 * Murray N, Jégou H, Perronnin F, et al. Interferences in match kernels[J]. 2016. [link][9].
 * 这篇文章主要可以了解下Burstiness现象：Jegou H, Douze M, Schmid C, et al. On the burstiness of visual elements[C]. 2009. [link][10].
 ***
-## 使用CNN模型的
+## 2. 使用CNN模型的
 关于CNN(Convolutional Neural Networks,卷积神经网络)，我自己其实了解的不是很多，目前只是会使用一些模型，也处在学习阶段。建议大家自行寻找一些资料阅读了解。（这里推荐一个 [Convolutional Neural Networks for Visual Recognition][12].）
 ### 早期方法(全连接层特征)
 * 好像是第一篇用CNN做图像检索的：Babenko A, Slesarev A, Chigorin A, et al. Neural Codes for Image Retrieval[C]. 2014. [link][11].
@@ -36,7 +36,7 @@
 * Mai L, Jin H, Lin Z L, et al. Spatial-Semantic Image Search by Visual Feature Synthesis[C]. 2017. [link][22].
 * Gordo A, Larlus D. Beyond Instance-Level Image Retrieval: Leveraging Captions to Learn a Global Visual Representation for Semantic Retrieval[C]. 2017. [link][23].
 ***
-## 相关资料
+## 3. 相关资料
 以下文章并不是直接解决图像检索问题，但是也可以看一看作为参考。图像处理的很多方法本质是相同或相通的。
 * Zhang L, Yang C, Lu H, et al. Ranking Saliency[J]. 2017. [link][24].
 * Kim H J, Dunn E, Frahm J M, et al. Learned Contextual Feature Reweighting for Image Geo-Localization[C]. 2017.[link][25].
